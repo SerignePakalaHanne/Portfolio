@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #23253a;
+}
+header h1 {
+    text-align: left;
+    margin: 0;
+    font-size: 24px;
+}
+
+header {
+    background-color: #23253a;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    position:sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+    
+}
+
+.gauche {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    background-color: #e8e8f3;
+}
+
+.droite {
+    float: right;
+    width: 65%;
+    padding: 20px;
+    
+}
+
+.gauche img {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.ok {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mame {
+    flex: 1;
+}
+
+.moi {
+    background-color: #e0e0e0;
+    width: 60%;
+    height: 10px;
+    position: relative;
+}
+
+.pakala {
+    height: 10px;
+    background-color:#23253a;
+    position: absolute;
+}
+.deu_partie{
+    display: flex;
+
+}
